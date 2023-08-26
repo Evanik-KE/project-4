@@ -344,7 +344,7 @@
 }
 
 .subscribe{
-    margin: 20px 0;
+    margin: 20px 0 0;
     background: url(images/backgrounds/subscribe.jpg);
     height: 50vh;
 }
@@ -382,5 +382,47 @@ input{
     outline: none;
     border: none;
     background-color: #F15A29;
+    color: white;
+}
+.We-are{
+    background-color: #F15A29;
+}
+
+.logo{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.logo h1{
+    margin-left:10px ;
+}
+
+.We-are p{
+    color: white;
+    font-size: 18px;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.social img{
+    margin-left: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+}
+footer h5{
+    font-size: 15px;
     color: white;
 }
