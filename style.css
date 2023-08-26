@@ -107,7 +107,6 @@
     font-style: italic;
 }
 .fast-food{
-    position: absolute;
     border: 15px solid white;
     display: inline-block;
     margin-left: 100px;
