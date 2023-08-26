@@ -106,10 +106,13 @@
     color: white;
     font-style: italic;
 }
+.semi-top{
+    margin-top: 50px;
+}
 .fast-food{
     border: 15px solid white;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 150px;
     box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2); 
 }
 
@@ -120,8 +123,8 @@
 }
 .fastfood-content{
     float: right;
-    width: 50%;
-    margin-right: 80px;
+    width: 40%;
+    margin-right: 150px;
     line-height: 1.8em;
     padding-top: 25px;
     padding: 20px 0;
@@ -149,4 +152,31 @@
 }
 .button-content {
     margin-right: 15px; 
+}
+
+.middle{
+    margin: 100px 150px;
+}
+
+.drinks-content{
+    display: block;
+    float: left;
+    width: 40%;
+    line-height: 1.8em;
+    padding-top: 25px;
+    padding: 20px 0;
+    text-align: right;
+    margin-right: 40px;
+}
+.drinks{
+    margin-left: 100px;
+    border: 15px solid white;
+    display: flex;
+    box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2); 
+}
+
+.drinks img{
+    display: block;
+    margin: 0;
+    width: 240px; 
 }
