@@ -342,3 +342,45 @@
     text-align: center;
     line-height: 1.2em;
 }
+
+.subscribe{
+    margin: 20px 0;
+    background: url(images/backgrounds/subscribe.jpg);
+    height: 50vh;
+}
+
+.subscribe h3{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.243);
+    border-radius: 3px;
+}
+::placeholder{
+    color: white;
+}
+#sub{
+    width: 120px;
+    height: 30px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
+    background-color: #F15A29;
+    color: white;
+}
