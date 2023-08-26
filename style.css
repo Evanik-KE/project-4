@@ -262,3 +262,83 @@
     font-size: 18px;
     color: #F15A29;
 }
+
+#customer{
+   border: 2px solid white;
+   box-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.2);
+   width: 800px;
+   height: 200px;
+   margin:50px 200px;
+   align-items: center;
+   justify-content: center;
+}
+
+.happy-customer{
+    border-right: 1.5px solid  rgb(240, 240, 240);
+    padding-right: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 53%;
+    float: left;
+}
+
+.happy-customer h3{
+    margin: 10px 10px;
+    text-align: center;
+    color: #F15A29;
+}
+.happy-customer h5,p{
+    text-align: center;
+}
+
+.pics{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.pics img{
+    margin-left: 10px;
+}
+
+.direction3{
+    margin:50px 90px;
+    position: absolute;
+    color: #F15A29;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.direction3::after{
+    content: '<'; 
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 20px;    
+}
+
+.direction4{
+    margin: 0px 10px;
+    color: #F15A29;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.direction4::after{
+    content: '>'; 
+    top: 20%;
+    left: -100%;
+    transform: translateY(20%, 20%);
+    font-size: 20px;
+}
+.about{
+    display: inline;
+}
+.about h3{
+    margin: 10px 10px;
+    text-align: center;
+    color: #F15A29;
+}
+.about p{
+    text-align: center;
+    line-height: 1.2em;
+}
