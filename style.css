@@ -406,6 +406,7 @@ input{
     margin-left: 10px;
     outline: none;
     border: none;
+    border-radius: 3px;
     background-color: #F15A29;
     color: white;
     font-family: 'Poppins', sans-serif;
@@ -451,6 +452,6 @@ footer{
 }
 footer p{
     font-size: 15px;
-    color: white;
+    color: rgba(255, 255, 255, 0.459);
     font-family: 'Poppins', sans-serif;
 }
