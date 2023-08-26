@@ -207,8 +207,8 @@
     width: 200px;
     height: 50px;
     font-size: 18px;
-    border:  0.5px solid;
-    background-color: grey;
+    border:  0.5px solid rgba(128, 128, 128, 0.192);
+    background-color: rgb(203, 203, 203);
 }
 
 .inner-mix-image{
