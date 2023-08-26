@@ -180,3 +180,85 @@
     margin: 0;
     width: 240px; 
 }
+
+#mix{
+    background: url(images/backgrounds/foodsBg.jpg) no-repeat;
+    height: 70vh;
+}
+
+.inner-mix{
+    position: relative;
+    transform: translate(25%, 50%);
+    top: -100px;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.inner-mix-title{
+    display: flex;
+}
+.inner-mix-title h5{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border:  0.5px solid;
+    background-color: grey;
+}
+
+.inner-mix-image{
+    display: flex;
+    margin: 20px 0;
+}
+
+.inner-mix-image img{
+    margin-left: 30px;
+    width: 220px;
+}
+.direction1{
+    margin: 100px 10px;
+    position: absolute;
+    color: #F15A29;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.direction1::after{
+    content: '<'; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;    
+}
+
+.direction2{
+    margin: 80px 10px;
+    color: #F15A29;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.direction2::after{
+    content: '>'; 
+    top: 20%;
+    left: -100%;
+    transform: translateY(20%, 20%);
+    font-size: 20px;    
+}
+
+#fast{
+    color: #F15A29;
+    background-color: white;
+    border: none;
+}
+
+.image p{
+    text-align: center;
+    font-size: 18px;
+    color: #F15A29;
+}
