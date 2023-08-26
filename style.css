@@ -36,15 +36,15 @@
     display: flex;
     margin: auto;
 }
-.menu h3{
+.menu p{
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-.menu h3{
+.menu p{
     color: rgba(255, 255, 255, 0.795);
     line-height: 1.3em;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 100;
 
 }
@@ -137,6 +137,11 @@
     padding-top: 25px;
     padding: 20px 0;
 }
+.fastfood-content p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
 
 .arrow-button {
     margin-top: 10px;
@@ -175,6 +180,11 @@
     padding: 20px 0;
     text-align: right;
     margin-right: 40px;
+}
+.drinks-content p{
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
 }
 .drinks{
     margin-left: 100px;
@@ -269,6 +279,7 @@
     text-align: center;
     font-size: 18px;
     color: #F15A29;
+    font-weight: 900;
 }
 
 #customer{
@@ -349,6 +360,9 @@
 .about p{
     text-align: center;
     line-height: 1.2em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-align: center;
 }
 
 .subscribe{
@@ -382,6 +396,7 @@ input{
 }
 ::placeholder{
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 #sub{
     width: 120px;
@@ -391,6 +406,7 @@ input{
     border: none;
     background-color: #F15A29;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 .We-are{
     background-color: #F15A29;
@@ -411,6 +427,7 @@ input{
 .We-are p{
     color: white;
     font-size: 18px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .social{
@@ -430,7 +447,8 @@ footer{
     align-items: center;
     padding: 25px 0;
 }
-footer h5{
+footer p{
     font-size: 15px;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
