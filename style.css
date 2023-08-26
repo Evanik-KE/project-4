@@ -140,9 +140,12 @@
     padding: 20px 0;
 }
 .fastfood-content p{
+    padding-top: 10px;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    line-height: 2em;
     text-align: center;
+
 }
 
 .arrow-button {
@@ -186,9 +189,11 @@
     margin-right: 40px;
 }
 .drinks-content p{
+    padding-top: 10px;
     text-align: right;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    line-height: 2em;
 }
 .drinks{
     margin-left: 100px;
