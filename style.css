@@ -92,13 +92,7 @@
     font-size: 18px;
     color: white;
 }
-.breakfast p,.lunch p,.dinner p {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-}
+
 .lunch{
     opacity: 50%;
 }
@@ -419,6 +413,7 @@ input{
     background-color: #F15A29;
     color: white;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 .We-are{
     background-color: #F15A29;
@@ -451,6 +446,7 @@ input{
 
 .social img{
     margin-left: 20px;
+    cursor: pointer;
 }
 
 footer{
