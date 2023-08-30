@@ -31,15 +31,18 @@
    left: 0;
   }
   .menu-btn {
+    padding-top: 10px;
     display: flex;
     align-items: center;
+    justify-content: center;
     position: fixed;
-    top: 40px;
-    left: 40px;
-    width: 26px;
-    height: 10px;
+    width: 28px;
+    font-weight: bolder;
+    top: 30px;
+    left: 45px;
     cursor: pointer;
-    z-index: 1;
+    z-index: 99;
+
   }
   .menu-btn span,.menu-btn  span::before,.menu-btn  span::after {
     display: block;
