@@ -60,13 +60,12 @@
   }
   
   .box {
-    display: block;
+    margin-left: 5px;
+    padding-left: 10px;
     position: fixed;
-    visibility: hidden;
-    top: 0;
-    left: -100%;
+    left: -25%;
     width: 120px;
-    height: 220px;
+    height: 200px;
     padding-top: 50px;
     background-color: #f15a29;
     transition-duration: 0.5s;
@@ -81,7 +80,7 @@
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    transition-duration: 0.25s;
+    transition-duration: 0.2s;
   }
  
 .menu{
