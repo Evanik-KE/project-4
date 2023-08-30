@@ -80,8 +80,12 @@
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
-    transition-duration: 0.2s;
+    transition-duration: 0.5s;
   }
+
+.item:hover{
+    color: white;
+}
  
 .menu{
     justify-content: center;
