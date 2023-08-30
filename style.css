@@ -16,20 +16,19 @@
     opacity: 0;
   }
   
-  #toggle:checked ~ .menu-btn span {
+  #toggle:checked~.menu-btn span {
     transform: rotate(45deg);
   }
-  #toggle:checked ~ .menu-btn span::before {
+  #toggle:checked~.menu-btn span::before {
     top: 0;
     transform: rotate(0);
   }
-  #toggle:checked ~ .menu-btn span::after {
+  #toggle:checked~.menu-btn span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  #toggle:checked ~ .box {
-    visibility: visible;
-    left: 0;
+  #toggle:checked~.box {
+   left: 0;
   }
   .menu-btn {
     display: flex;
