@@ -66,7 +66,7 @@
     top: 0;
     left: -100%;
     width: 120px;
-    height: 300px;
+    height: 220px;
     padding-top: 50px;
     background-color: #f15a29;
     transition-duration: 0.5s;
@@ -75,8 +75,8 @@
   
   .item {
     display: block;
-    padding: 12px 24px;
-    color: #333;
+    padding: 5px 20px;
+    color: black;
     font-family: "Poppins", sans-serif;
     font-size: 20px;
     font-weight: 600;
